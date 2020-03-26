@@ -197,6 +197,12 @@ button {
         content: "'sm-': lig el. over 576px.";
     }
 
+    nav img {
+        width: 12vw;
+        border: black solid 0.2px;
+        margin-right: 2rem;
+    }
+
 
     #s {
         bottom: 70vw;
@@ -253,6 +259,12 @@ button {
 
     body::before {
         content: "'lg': lig el. over 992px.";
+    }
+
+    nav img {
+        width: 8vw;
+        border: black solid 0.2px;
+        margin-right: 2rem;
     }
 
     li img {
