@@ -127,12 +127,6 @@ nav img {
 
 /********************************************/
 
-
-
-
-
-
-
 button {
     background-color: #a2b824;
     color: white;
@@ -183,6 +177,14 @@ button {
 #s {
     bottom: 85vw;
     right: 8vw;
+}
+
+/**************************************************/
+/**********************opskrift********************/
+
+#opskrift_bær {
+    top: 14vw;
+    right: -8vw;
 }
 
 /**************************************************/
@@ -239,6 +241,11 @@ button {
     #s {
         bottom: 60vw;
         right: 8vw;
+    }
+
+    li img {
+        width: 5vw;
+        padding: 1vw;
     }
 
     /* END "md-" 768px and up */
@@ -341,6 +348,13 @@ button {
         right: -10vw;
 
     }
+
+    #opskrift_bær {
+        top: 9vw;
+        right: -6vw;
+    }
+
+
 
 
 
