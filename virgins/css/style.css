@@ -36,6 +36,11 @@ body::before {
     margin-right: 0;
 }
 
+section {
+    background-color: white;
+    display: block;
+}
+
 /****************fonts*****************/
 
 h1 {
@@ -122,28 +127,9 @@ nav img {
 
 /********************************************/
 
-section {
-    background-color: white;
-    display: block;
-}
 
-#t {
-    margin-top: 38vw;
-}
 
-#l {
-    margin-top: 15vw;
-}
 
-#a {
-    margin-left: 60vw;
-    margin-top: -20vw;
-}
-
-#s {
-    margin-left: 55vw;
-    margin-top: 10vw;
-}
 
 
 
@@ -154,6 +140,50 @@ button {
     border-radius: 2vw;
 }
 
+/********************om******************/
+#flaske {
+    z-index: 10;
+    left: 4vw;
+}
+
+#new-lime {
+    z-index: 5;
+    left: 2vw;
+    top: 20vw;
+    width: 22vw;
+    height: 22vw;
+
+}
+
+#fler_tranebær {
+    z-index: 15;
+    right: -15vw;
+    bottom: 0vw;
+    width: 42vw;
+}
+
+/******************************************/
+/***********************indgridienser***************/
+
+#t {
+    top: 39vw;
+    left: 1vw;
+}
+
+#l {
+    top: 80vw;
+    left: 1vw;
+}
+
+#a {
+    top: 48vw;
+    right: 8vw;
+}
+
+#s {
+    bottom: 85vw;
+    right: 8vw;
+}
 
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
@@ -224,6 +254,15 @@ button {
         width: 5vw;
     }
 
+    #new-lime {
+        z-index: 5;
+        left: 2vw;
+        top: 10vw;
+        width: 15vw;
+        height: 15vw;
+
+    }
+
 
 
     /* END "lg-" 992px and up */
@@ -259,6 +298,20 @@ button {
 
     li img {
         width: 4vw;
+
+    }
+
+    #new-lime {
+        left: 2vw;
+        top: 6vw;
+        width: 12vw;
+        height: 12vw;
+
+    }
+
+    #fler_tranebær {
+        right: -10vw;
+
     }
 
 
