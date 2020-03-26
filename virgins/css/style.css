@@ -127,13 +127,6 @@ nav img {
 
 /********************************************/
 
-button {
-    background-color: #a2b824;
-    color: white;
-    font-family: 'Quicksand', sans-serif;
-    border-radius: 2vw;
-}
-
 /********************om******************/
 #flaske {
     z-index: 10;
@@ -160,22 +153,22 @@ button {
 /***********************indgridienser***************/
 
 #t {
-    top: 39vw;
-    left: 1vw;
+    top: 3vw;
+    left: -4vw;
 }
 
 #l {
-    top: 80vw;
-    left: 1vw;
+    top: 40vw;
+    left: -4vw;
 }
 
 #a {
-    top: 48vw;
-    right: 8vw;
+    top: 10vw;
+    right: 1vw;
 }
 
 #s {
-    bottom: 85vw;
+    bottom: 75vw;
     right: 8vw;
 }
 
@@ -185,6 +178,13 @@ button {
 #opskrift_bær {
     top: 14vw;
     right: -8vw;
+}
+
+button {
+    background-color: #a2b824;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 2vw;
 }
 
 /**************************************************/
@@ -197,13 +197,9 @@ button {
         content: "'sm-': lig el. over 576px.";
     }
 
-    #l {
-        top: 75vw;
-        left: 1vw;
-    }
 
-    #a {
-        top: 45vw;
+    #s {
+        bottom: 70vw;
         right: 8vw;
     }
 }
@@ -223,30 +219,24 @@ button {
         content: "'md': lig el. over 768px. ";
     }
 
-    #t {
-        top: 22vw;
-        left: 0;
-    }
 
-    #l {
-        top: 50vw;
-        left: 1vw;
-    }
-
-    #a {
-        top: 29vw;
-        right: 5vw;
-    }
-
-    #s {
-        bottom: 60vw;
-        right: 8vw;
-    }
 
     li img {
         width: 5vw;
         padding: 1vw;
     }
+
+
+    #l {
+        top: 35vw;
+        left: -4vw;
+    }
+
+    #s {
+        bottom: 60vw;
+        right: 6vw;
+    }
+
 
     /* END "md-" 768px and up */
 }
@@ -278,24 +268,20 @@ button {
 
     }
 
-    #t {
-        top: 15vw;
-        left: -5vw;
-    }
 
     #l {
-        top: 31vw;
-        left: -1vw;
+        top: 22vw;
+        left: -4vw;
     }
 
     #a {
-        top: 18vw;
-        right: -3vw;
+        top: 5vw;
+        right: 1vw;
     }
 
     #s {
-        bottom: 35vw;
-        right: 2vw;
+        bottom: 38vw;
+        right: 3vw;
     }
 
 
