@@ -194,7 +194,18 @@ button {
     body::before {
         content: "'sm-': lig el. over 576px.";
     }
+
+    #l {
+        top: 75vw;
+        left: 1vw;
+    }
+
+    #a {
+        top: 45vw;
+        right: 8vw;
+    }
 }
+
 
 /* END "sm-" 576px and up */
 
@@ -208,6 +219,26 @@ button {
 
     body::before {
         content: "'md': lig el. over 768px. ";
+    }
+
+    #t {
+        top: 22vw;
+        left: 0;
+    }
+
+    #l {
+        top: 50vw;
+        left: 1vw;
+    }
+
+    #a {
+        top: 29vw;
+        right: 5vw;
+    }
+
+    #s {
+        bottom: 60vw;
+        right: 8vw;
     }
 
     /* END "md-" 768px and up */
@@ -227,29 +258,6 @@ button {
         content: "'lg': lig el. over 992px.";
     }
 
-    #indgredienser {
-        margin-left: 50vw;
-        margin-top: 50vw;
-    }
-
-    #t {
-        margin-top: 0vw;
-    }
-
-    #l {
-        margin-top: 0vw;
-    }
-
-    #a {
-        margin-left: 0vw;
-        margin-top: 0vw;
-    }
-
-    #s {
-        margin-left: 0vw;
-        margin-top: 0vw;
-    }
-
     li img {
         width: 5vw;
     }
@@ -261,6 +269,26 @@ button {
         width: 15vw;
         height: 15vw;
 
+    }
+
+    #t {
+        top: 15vw;
+        left: -5vw;
+    }
+
+    #l {
+        top: 31vw;
+        left: -1vw;
+    }
+
+    #a {
+        top: 18vw;
+        right: -3vw;
+    }
+
+    #s {
+        bottom: 35vw;
+        right: 2vw;
     }
 
 
