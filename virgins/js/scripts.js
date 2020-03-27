@@ -2,6 +2,7 @@
     $('.preloader').fadeOut('slow');
 });*/
 
+
 $(window).on('load', function () {
     $('.parallax-window').parallax({});
 });
