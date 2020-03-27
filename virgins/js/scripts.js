@@ -1,7 +1,7 @@
 /*$(window).load(function () {
     $('.preloader').fadeOut('slow');
 });*/
-
+new WOW().init();
 
 $(window).on('load', function () {
     $('.parallax-window').parallax({});
