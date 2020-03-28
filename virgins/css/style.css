@@ -3,18 +3,6 @@
 /**************************************************/
 /* WRITE MOBILE STYLES AND GENERAL STYLES (fonts, colors etc.) HERE BEFORE THE FIRST BREAKPOINT */
 /**************************************************/
-/*.preloader {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background-image: url("../imgs/logo.png");
-    background-repeat: no-repeat;
-    background-color: #FFF;
-    background-position: center;
-}*/
 
 body::before {
     content: "Default. mobile/under 576px. Deafult i Bootstrap.";
@@ -41,7 +29,7 @@ section {
     display: block;
 }
 
-/****************fonts*****************/
+/****************fonts**************************/
 
 h1 {
     font-family: 'Stalemate', cursive;
@@ -122,29 +110,9 @@ nav img {
     margin: 0;
 }
 
-footer #logo {
-    width: 15vw;
-    border: black solid 0.2px;
-}
+/****************************************************/
 
-footer {
-    background-color: white;
-}
-
-#instagram {
-    height: 100vw
-}
-
-#soialmedia img {
-    width: 5vw;
-}
-
-
-
-
-/********************************************/
-
-/********************om******************/
+/***********************om***************************/
 #flaske {
     z-index: 10;
     left: 4vw;
@@ -166,8 +134,8 @@ footer {
     width: 42vw;
 }
 
-/******************************************/
-/***********************indgridienser***************/
+/***************************************************/
+/********************indgridienser******************/
 
 #t {
     top: 3vw;
@@ -203,6 +171,33 @@ button {
     font-family: 'Quicksand', sans-serif;
     border-radius: 2vw;
 }
+
+/**************************************************/
+
+
+/*******************Footer*************************/
+footer #logo {
+    width: 15vw;
+    border: black solid 0.2px;
+}
+
+footer {
+    background-color: white;
+}
+
+#instagram {
+    height: 100vw
+}
+
+#soialmedia img {
+    width: 5vw;
+}
+
+/**************************************************/
+
+
+
+
 
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
@@ -274,9 +269,6 @@ button {
 }
 
 
-
-
-
 /**************************************************/
 /* // Large devices (desktops, 992px and up) */
 /**************************************************/
@@ -334,8 +326,6 @@ button {
 
     /* END "lg-" 992px and up */
 }
-
-
 
 /**************************************************/
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -400,9 +390,6 @@ button {
     #soialmedia img {
         width: 2vw;
     }
-
-
-
 
     /* END "xl-" 1200px and up */
 }
